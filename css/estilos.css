@@ -1,0 +1,55 @@
+/* FOOTER */
+
+footer {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* HEADER */
+
+header {
+    background-color: brown;
+    color: white;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    padding: 0.5em;
+    position: fixed;
+    top: 0px;
+    width: calc(100% - 2*0.5em);
+
+}
+
+ul {
+    margin: 0px;
+}
+
+li {
+    display: inline
+}
+
+.logo {
+    height: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* SECCION: nueva corralon */
+
+#nuevo-corralon {
+    margin-top: 2em;
+    min-height: 100vh;
+    background-image: url('/img/corralon-firmat.jpg');
+    background-size: cover;
+
+
+
+}
