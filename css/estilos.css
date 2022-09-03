@@ -25,6 +25,8 @@ header {
 
 }
 
+
+
 ul {
     margin: 0px;
 }
@@ -46,7 +48,7 @@ a {
 
 /* SECCION: nueva corralon */
 
-section#nuevo-corralon {
+#nuevo-corralon {
     margin-top: 2em;
     min-height: 100vh;
     
@@ -81,6 +83,41 @@ section#nuevo-corralon {
     flex-flow: row nowrap;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    
 
 
+}
+
+#servicios > div:nth-child(1) {
+    border-right: 1px solid black;
+    flex-basis: calc(60% - 1px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicios > div:nth-child(1) > * {
+    width: 80%;
+}
+
+#servicios > div:nth-child(2) {
+    flex-basis: 40%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#servicios .card {
+    border: 1px solid black;
+    width: 300px;
+
+}
+
+#servicios .card img {
+    width: 100%;
 }
