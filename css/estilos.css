@@ -5,9 +5,6 @@ footer {
     text-align: center;
     color: white;
     padding: 0.5em;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
 }
 
 /* HEADER */
@@ -21,18 +18,15 @@ header {
     padding: 0.5em;
     position: fixed;
     top: 0px;
-    width: calc(100% - 2*0.5em);
-
+    width: calc(100% - 2 * 0.5em);
 }
-
-
 
 ul {
     margin: 0px;
 }
 
 li {
-    display: inline
+    display: inline;
 }
 
 .logo {
@@ -44,29 +38,25 @@ a {
     color: white;
 }
 
-
-
 /* SECCION: nueva corralon */
 
 #nuevo-corralon {
     margin-top: 2em;
     min-height: 100vh;
-    
-    background-image: url('/img/imagen-principal.jpg');
+
+    background-image: url("/img/imagen-principal.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
 
-    
-
+    position: relative;
 }
 
 #nuevo-corralon h1 {
-
     position: relative;
     top: 50%;
     left: 50%;
 
     transform: translate(-50%, -50%);
-
 }
 
 #subtitle {
@@ -76,7 +66,6 @@ a {
 
     padding-left: 2em;
     width: 25%;
-
 }
 
 #subtitle p {
@@ -88,14 +77,11 @@ a {
 
     display: flex;
     flex-flow: row nowrap;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    
-
-
+    border-top: 1px solid rgb(173, 24, 24);
+    border-bottom: 1px solid rgb(33, 212, 48);
 }
 
-#servicios > div:nth-child(1) {
+#servicios>div:nth-child(1) {
     border-right: 1px solid black;
     flex-basis: calc(60% - 1px);
 
@@ -105,24 +91,22 @@ a {
     align-items: center;
 }
 
-#servicios > div:nth-child(1) > * {
+#servicios>div:nth-child(1)>* {
     width: 80%;
 }
 
-#servicios > div:nth-child(2) {
+#servicios>div:nth-child(2) {
     flex-basis: 40%;
 
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
-
 }
 
 #servicios .card {
     border: 1px solid black;
     width: 300px;
-
 }
 
 #servicios .card img {
