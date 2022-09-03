@@ -55,14 +55,13 @@ a {
     background-image: url('/img/imagen-principal.jpg');
     background-size: cover;
 
-    position: relative;
     
 
 }
 
 #nuevo-corralon h1 {
 
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
 
@@ -72,8 +71,16 @@ a {
 
 #subtitle {
     position: absolute;
-    bottom: 0%;
+    bottom: 10%;
     left: 0%;
+
+    padding-left: 2em;
+    width: 25%;
+
+}
+
+#subtitle p {
+    color: white;
 }
 
 #servicios {
