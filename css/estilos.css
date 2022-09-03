@@ -42,14 +42,45 @@ a {
     color: white;
 }
 
+
+
 /* SECCION: nueva corralon */
 
-#nuevo-corralon {
+section#nuevo-corralon {
     margin-top: 2em;
     min-height: 100vh;
-    background-image: url('/img/corralon-firmat.jpg');
+    
+    background-image: url('/img/imagen-principal.jpg');
     background-size: cover;
 
+    position: relative;
+    
+
+}
+
+#nuevo-corralon h1 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+#subtitle {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+#servicios {
+    min-height: 120vh;
+
+    display: flex;
+    flex-flow: row nowrap;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 
 
 }
