@@ -1,7 +1,7 @@
 /* FOOTER */
 
 footer {
-    background-color: rgb(63, 21, 232);
+    background-color: rgb(7, 184, 66);
     color: white;
     padding: 0.5em;
 
@@ -12,8 +12,8 @@ footer {
 /* HEADER */
 
 header {
-    background-color: rgb(255, 111, 0);
-    color: white;
+    background-color: rgb(188, 234, 20);
+    color: rgb(6, 6, 6);
     padding: 0.5em;
     
     display: flex;
@@ -79,7 +79,7 @@ a {
 }
 
 #subtitle p {
-    color: rgb(32, 30, 60);
+    color: rgb(226, 21, 21);
 }
 
 #servicios {
