@@ -1,7 +1,7 @@
 /* FOOTER */
 
 footer {
-    background-color: rgb(221, 232, 21);
+    background-color: rgb(63, 21, 232);
     color: white;
     padding: 0.5em;
 
@@ -12,7 +12,7 @@ footer {
 /* HEADER */
 
 header {
-    background-color: rgb(223, 230, 22);
+    background-color: rgb(255, 111, 0);
     color: white;
     padding: 0.5em;
     
@@ -22,6 +22,7 @@ header {
 
     position: fixed;
     top: 0px;
+
     width: calc(100% - 2 * 0.5em);
 }
 
@@ -47,14 +48,15 @@ a {
 #nuevo-corralon {
     
     margin-top: 4em;
+ 
     min-height: 100vh;
 
-    background-image: url("/img/imagen-principal.jpg");
+    background-image: url("../img/imagen-principal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
-    position: relative;
-    display: block;
+
+    
 
     
 }
@@ -123,4 +125,44 @@ a {
 
 #servicios .card p {
     text-align: center;
+}
+
+#nuestros-productos {
+    border-bottom: 1px solid black;
+    min-width: 100vh;
+    
+}
+
+#nuestros-productos img {
+    width: 100%;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+}
+
+#nuestros-productos h2 {
+    margin: 0px;
+    padding: 1em;
+}
+
+#nuestros-productos h2, #nuestros-productos h3, #nuestros-productos p {
+    text-align: center;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.ladrillos, .aridos, .bolsas {
+    flex-basis: 30%;
+    border: 1px solid black;
+    margin-top: 2em;
+    border-radius: 20px;
+    width: 30%;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
