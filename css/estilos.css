@@ -1,21 +1,25 @@
 /* FOOTER */
 
 footer {
-    background-color: brown;
-    text-align: center;
+    background-color: rgb(221, 232, 21);
     color: white;
     padding: 0.5em;
+
+    text-align: center;
+    width: calc(100% -1em);
 }
 
 /* HEADER */
 
 header {
-    background-color: brown;
+    background-color: rgb(223, 230, 22);
     color: white;
+    padding: 0.5em;
+    
     display: flex;
     flex-wrap: row;
     justify-content: space-between;
-    padding: 0.5em;
+
     position: fixed;
     top: 0px;
     width: calc(100% - 2 * 0.5em);
@@ -35,13 +39,14 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(247, 244, 244);
 }
 
 /* SECCION: nueva corralon */
 
 #nuevo-corralon {
-    margin-top: 2em;
+    
+    margin-top: 4em;
     min-height: 100vh;
 
     background-image: url("/img/imagen-principal.jpg");
@@ -49,6 +54,9 @@ a {
     background-size: cover;
 
     position: relative;
+    display: block;
+
+    
 }
 
 #nuevo-corralon h1 {
@@ -69,7 +77,7 @@ a {
 }
 
 #subtitle p {
-    color: white;
+    color: rgb(32, 30, 60);
 }
 
 #servicios {
@@ -77,11 +85,11 @@ a {
 
     display: flex;
     flex-flow: row nowrap;
-    border-top: 1px solid rgb(173, 24, 24);
-    border-bottom: 1px solid rgb(33, 212, 48);
+    border-top: 1px solid rgb(9, 8, 8);
+    border-bottom: 1px solid rgb(3, 3, 3);
 }
 
-#servicios>div:nth-child(1) {
+#servicios > div:nth-child(1) {
     border-right: 1px solid black;
     flex-basis: calc(60% - 1px);
 
@@ -91,11 +99,11 @@ a {
     align-items: center;
 }
 
-#servicios>div:nth-child(1)>* {
+#servicios > div:nth-child(1) > * {
     width: 80%;
 }
 
-#servicios>div:nth-child(2) {
+#servicios > div:nth-child(2) {
     flex-basis: 40%;
 
     display: flex;
@@ -111,4 +119,8 @@ a {
 
 #servicios .card img {
     width: 100%;
+}
+
+#servicios .card p {
+    text-align: center;
 }
