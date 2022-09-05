@@ -72,16 +72,8 @@ a {
     
 }
 
-#nuevo-corralon h1 {
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
 
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    margin: 0px;
-}
+
 
 #subtitle {
     position: absolute;
@@ -203,6 +195,10 @@ a {
         text-align: center;
     }
 
+    #contacto-container ul {
+
+    }
+
     #map {
         flex-basis: 70%;
     }
@@ -213,4 +209,8 @@ a {
         justify-content: space-around;
         align-items: center;
         flex-basis: 30%;
+    }
+
+    #contacto-container ul {
+        text-align: center;
     }
