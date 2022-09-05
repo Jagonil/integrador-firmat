@@ -1,3 +1,5 @@
+/* SECCION: body */
+
 body {
     margin: 0px;
     background-color: rgb(250, 178, 9);
@@ -138,6 +140,8 @@ a {
     text-align: center;
     color: white;
 }
+
+/* SECCION: nuestros productos */
 
 #nuestros-productos {
     border-bottom: 1px solid black;
