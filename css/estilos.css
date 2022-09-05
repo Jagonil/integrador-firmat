@@ -199,10 +199,18 @@ a {
         flex-wrap: nowrap;
     }
 
+    section#contacto {
+        text-align: center;
+    }
+
     #map {
         flex-basis: 70%;
     }
 
     #contacto-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         flex-basis: 30%;
     }
