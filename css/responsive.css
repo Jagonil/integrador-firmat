@@ -28,8 +28,13 @@
 
 #servicios > div:nth-child(1) {
     height: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    border: none;
 
+}
+
+#servicios .card {
+    margin-bottom: 10px;
 }
 
 #servicios {
