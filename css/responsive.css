@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px){
+
+#servicios {
+    flex-direction: column;
+    flex-flow: column;
+       
+    
+}
+
+
+@media screen and (max-width: 500px){
+    h1 {
+    font-size: 1em; 
+    }
+}
+
+#subtitle {
+    font-size: 0.80em;
+    padding-left: 1em;
+    width: 50%;
+    
+}
+@media screen and (max-width: 640px){
+.span-logo {
+    display: none;
+
+}
+
+#servicios > div:nth-child(1) {
+    height: 50%;
+    margin-bottom: 20px;
+
+}
+
+#servicios {
+    margin: 20px;
+}
+
+@media screen and (max-width: 700px){
+    
+
+section#contacto {
+    
+    flex-direction: column;
+    flex-flow: column;
+}
+
+}

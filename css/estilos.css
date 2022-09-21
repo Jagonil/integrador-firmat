@@ -74,18 +74,26 @@ a {
     
 }
 
-
+h1 {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+    
+}
 
 
 #subtitle {
     position: absolute;
-    bottom: 10%;
+    bottom: 0%;
     left: 0%;
 
     padding-left: 2em;
     width: 25%;
 
     color: rgb(255, 254, 253);
+    font-size: small;
 }
 
 #subtitle p {
